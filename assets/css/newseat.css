@@ -1,0 +1,86 @@
+body {
+    background: #000;
+  }
+  
+  .toggle-button {
+    position: relative;
+  }
+  
+  .toggle-button input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .toggle-button i {
+    width: 40px;
+    height: 40px;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #222;
+    border-radius: 10%;
+    transition: 0.5s;
+    font-size: 30px;
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .toggle-button input[type="checkbox"]:checked ~ i {
+    background: #000;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(33,156,243,.5),
+                0 0 20px rgba(33,156,243,.5),
+                0 0 30px rgba(33,156,243,.5),
+                inset 0 0 30px rgba(33,156,243,.5);
+    color: #fff;
+    text-shadow: 0 0 10px rgba(33,156,243,1),
+                0 0 20px rgba(33,156,243,1);
+  }
+  
+  /*  for B  */
+  
+  label.toggle-buttonB {
+    left: 100px;
+    position: relative;
+  }
+  
+  .toggle-buttonB {
+    position: relative;
+  }
+  
+  .toggle-buttonB input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .toggle-buttonB i {
+    width: 40px;
+    height: 40px;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #222;
+    border-radius: 10%;
+    transition: 0.5s;
+    font-size: 30px;
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .toggle-buttonB input[type="checkbox"]:checked ~ i {
+    background: #000;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(33,156,243,.5),
+  0 0 20px rgba(33,156,243,.5),
+  0 0 30px rgba(33,156,243,.5),
+  inset 0 0 30px rgba(33,156,243,.5);
+    color: #fff;
+    text-shadow: 0 0 10px rgba(33,156,243,1),
+  0 0 20px rgba(33,156,243,1);
+  }
+  
+  
