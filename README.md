@@ -44,8 +44,8 @@ PS: this page is just for seat preview for booking the selected seat from seat p
 7. SELECT SEAT PAGE
 
 ![block](https://user-images.githubusercontent.com/53445466/69404264-df064280-0d22-11ea-916c-d59b9a084e7e.png)
-the seats will glow once clicked on them, also seats already booked by other users will not glow
-PS: color scheme is not mentioned so user will understand the status of seat only after seat is clicked
+the seat will glow when the user will click on it, also seats that are already booked by other users will not glow
+PS: color scheme is not mentioned so user will understand the status of seat only after seat is clicked.
 
 
 Once number of seats are selected, user will be taken to payment gateway (here Paytm) and can complete the payment process to confirm the booking
